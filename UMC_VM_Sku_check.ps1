@@ -67,8 +67,8 @@ do
 }
 while($RetryFlag)
 
-$subID = "c9cec887-c8df-48c6-9889-8ac3f60eabc7"
-$TenantId = "72f988bf-86f1-41af-91ab-2d7cd011db47"
+$subID = ""
+$TenantId = ""
 set-azcontext -Subscription $subID -Tenant $TenantId
 
 #-------------------------PULL VM List From Subscription--------------------------------#
