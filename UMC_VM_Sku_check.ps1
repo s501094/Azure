@@ -127,6 +127,8 @@ foreach($vm in $VMList){
 }
 $table | FT -AutoSize
 
+
+## -------------------------------------    File cleanup       ----------------------------------------------------------------------------------------------------
 #$pythonFile = $env:USERPROFILE\'Supported_OS_data.py'
 $destination = 'C:\UMC'
 Remove-Item $pythonFile -Force
